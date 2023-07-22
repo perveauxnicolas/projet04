@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		D24E05C82A55B5C500C2B6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24E05C62A55B5C500C2B6AA /* Main.storyboard */; };
 		D24E05CA2A55B5CF00C2B6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24E05C92A55B5CF00C2B6AA /* Assets.xcassets */; };
 		D24E05CD2A55B5CF00C2B6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24E05CB2A55B5CF00C2B6AA /* LaunchScreen.storyboard */; };
+		D24E05D52A55BD2800C2B6AA /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D24E05D42A55BD2700C2B6AA /* Delm-Medium.otf */; };
+		D24E05D72A55BD3700C2B6AA /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D24E05D62A55BD3700C2B6AA /* ThirstySoftRegular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D24E05C92A55B5CF00C2B6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24E05CC2A55B5CF00C2B6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24E05CE2A55B5CF00C2B6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24E05D42A55BD2700C2B6AA /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		D24E05D62A55BD3700C2B6AA /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		D24E05BF2A55B5C500C2B6AA /* Instagrid */ = {
 			isa = PBXGroup;
 			children = (
-				D24E05C02A55B5C500C2B6AA /* AppDelegate.swift */,
-				D24E05C22A55B5C500C2B6AA /* SceneDelegate.swift */,
-				D24E05C42A55B5C500C2B6AA /* ViewController.swift */,
-				D24E05C62A55B5C500C2B6AA /* Main.storyboard */,
-				D24E05C92A55B5CF00C2B6AA /* Assets.xcassets */,
-				D24E05CB2A55B5CF00C2B6AA /* LaunchScreen.storyboard */,
 				D24E05CE2A55B5CF00C2B6AA /* Info.plist */,
+				D24E05DB2A55C1C800C2B6AA /* Model */,
+				D24E05DA2A55C1B700C2B6AA /* Controller */,
+				D24E05D92A55C1A600C2B6AA /* View */,
+				D24E05D82A55C18E00C2B6AA /* Supporting Files */,
 			);
 			path = Instagrid;
+			sourceTree = "<group>";
+		};
+		D24E05D82A55C18E00C2B6AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D24E05C92A55B5CF00C2B6AA /* Assets.xcassets */,
+				D24E05C02A55B5C500C2B6AA /* AppDelegate.swift */,
+				D24E05C22A55B5C500C2B6AA /* SceneDelegate.swift */,
+				D24E05D62A55BD3700C2B6AA /* ThirstySoftRegular.otf */,
+				D24E05D42A55BD2700C2B6AA /* Delm-Medium.otf */,
+				D24E05CB2A55B5CF00C2B6AA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D24E05D92A55C1A600C2B6AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D24E05C62A55B5C500C2B6AA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D24E05DA2A55C1B700C2B6AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D24E05C42A55B5C500C2B6AA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D24E05DB2A55C1C800C2B6AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +141,7 @@
 				};
 			};
 			buildConfigurationList = D24E05B82A55B5C500C2B6AA /* Build configuration list for PBXProject "Instagrid" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,6 +165,8 @@
 			files = (
 				D24E05CD2A55B5CF00C2B6AA /* LaunchScreen.storyboard in Resources */,
 				D24E05CA2A55B5CF00C2B6AA /* Assets.xcassets in Resources */,
+				D24E05D72A55BD3700C2B6AA /* ThirstySoftRegular.otf in Resources */,
+				D24E05D52A55BD2800C2B6AA /* Delm-Medium.otf in Resources */,
 				D24E05C82A55B5C500C2B6AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +332,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +359,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
